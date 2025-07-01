@@ -150,6 +150,15 @@
                 <label for="emid ">Email ID </label><input type="email " placeholder=" enter your emmail ID " required/><br><br>
                 <label for="add ">Address </label><input type="" placeholder=" enter your address " required/><br><br>
                 <label for="deadline">Delivery Deadline </label><input type="date"><br><br>
+                 <label for="paymentoption">Please select a payment option:</label>
+                <select name="payment" id="">
+                    <option value=""></option>
+                    <option value="UPI">UPI</option>
+                    <option value="COD">Cash On Delivery</option>
+                    <option value="card">Credit/Debit Card</option>
+                    <option value="IB">Internet Banking</option>
+                    </select>
+
 
                 <h3>Select the items you want to purchase with their respective colours 🎨:</h3> <br><br>
                 <label for="foot ">Football</label><input type="checkbox"><input type="color">
@@ -157,7 +166,7 @@
                 <label for="foot1 ">Jerseys</label><input type="checkbox"><input type="color">
                 <label for="foot2 ">Shin Guards</label><input type="checkbox"><input type="color">
                 <label for="foot3 ">Cleats</label><input type="checkbox"><input type="color"> <br><br><br>
-                <label for="descp">Additional Comments</label><br><br>
+                <label for="descp">Additional Comments</label><br><br><br>
                 <textarea name="cmnts" id="" cols="250" rows="10" placeholder="add your description here"></textarea>
                 <label for=""></label><input type="reset">
                 <label for=""></label><input type="submit">
